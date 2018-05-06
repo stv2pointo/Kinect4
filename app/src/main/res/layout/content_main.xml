@@ -18,6 +18,7 @@
         android:orientation="vertical"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/colB"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <ImageView
@@ -65,7 +66,7 @@
         android:clickable="true"
         android:orientation="vertical"
         app:layout_constraintStart_toEndOf="@id/colA"
-        app:layout_constraintRight_toRightOf="@id/colC"
+        app:layout_constraintEnd_toStartOf="@id/colC"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
         <ImageView
